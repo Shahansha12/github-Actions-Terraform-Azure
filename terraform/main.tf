@@ -1,8 +1,8 @@
 terraform {
   backend "azurerm" {
-    resource_group_name  = "R1"
-    storage_account_name = "terraformazures"
-    container_name       = "tfstatefile"
+    resource_group_name  = "terrashan"
+    storage_account_name = "terrashanacc"
+    container_name       = "tshanfile"
     key                  = "dev.terraform.tfstate"
   }
 }
